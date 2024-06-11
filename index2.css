@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+.navbar {
+    background-color: #90a955;
+    color: white;
+}
+
+.latarBelakang {
+    margin-top: 60px;
+    font-family: Roboto;
+}
+
+.judul {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    font-family: Staatliches;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.eco {
+    font-family: Poppins;
+    font-weight: 800;
+    flex: 0 0 auto;
+}
+
+.judulUtama {
+    color: black;
+}
+
+.latarTeks {
+    font-size: 20px;
+    text-indent: 50px;
+    margin-left: 30px;
+}
+
+.latarTeks1 {
+    font-size: 20px;
+    /* text-indent: 50px; */
+    margin-left: 60px;
+}
+
+.dampakBg {
+    padding: 50px 0px 50px 0px;
+}
+
+.haer {
+    color: black;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.nomer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:fantasy;
+}
+
+.text {
+    margin-bottom: 10px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+li {
+    margin-bottom: 15px;
+    margin-left: 80px;
+}
+
+.penumpukan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+footer {
+    background-color: black;
+    /* Warna latar belakang yang diinginkan */
+    padding: 20px 0;
+    /* Jarak antara isi footer dengan tepi footer */
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.identitas {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.profil {
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.profil a {
+    text-decoration: none;
+    color: white;
+  }
+
+.about:hover {
+    color: #90a955;
+    cursor: pointer;
+}
+
+.contact:hover {
+    color: #90a955;
+    cursor: pointer;
+}
+
+.profil1 {
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.supp:hover{
+    cursor: pointer;
+    color: #90a955;
+}
+
+.ikon:hover {
+    cursor: pointer;
+    color: #90a955;
+}
+
+@media (min-width: 375px) and (max-width: 885px) {
+    .dampakBg {
+        background-color: #8cab43;
+    }
+}
